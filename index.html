@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"
+      integrity="sha512-AA1Bzp5Q0K1KanKKmvN/4d3IRKVlv9PYgwFPvm32nPO6QS8yH1HO7LbgB1pgiOxPtfeg5zEn2ba64MUcqJx6CA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Authentication is Fun</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: rgb(110, 178, 32);
+        color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="authForm">
+      <h2>Sign Up or Sign In</h2>
+      <input type="email" placeholder="email" id="userEmail" />
+      <input type="password" placeholder="password" id="userPassword" />
+      <br /><br />
+      <button id="signUpButton">Sign Up</button>
+      <button id="signInButton">Sign In</button>
+    </div>
+
+    <div id="secretContent">
+      <h2>Products Page</h2>
+     
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/17prayers.png"card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Seventeen Prayers to the many eyed mother</h5>
+                <p class="card-text">In this highly anticipated follow-up to 2012’s “A Bottle of Storm Clouds,” award-winning author Eliza Victoria returns with 17 stories of displacement, disillusionment, desperation, and loneliness.
+
+                </p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/bangin.png"card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ang Bangin Sa Ilalim Ng Ating Mga Paa</h5>
+                <p class="card-text">S Agad na kinontak ni Reynold ‘‘Rey’’ Ventura, isang hardware owner, ang mga kaibigan ng anak niyang si Alison, isang gabing hindi ito umuwi. Pero lahat sila, walang ideya kung saan ito naroon.</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/Barcelona.png"card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Barcelona</h5>
+                <p class="card-text">Set in 2050, this dystopian illustrated novella follows Barcelona, a woman who leads a gang of orphans from the Drug War in vanishing Manila, a city that is slowly sinking underwater. </p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/hoy pong.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Hoy, Pong!</h5>
+                <p class="card-text">Welcome to 1999, ang prelude sa katapusan daw ng mundo via the Y2K bug, to be exact. Ako ‘yung Pong sa Hoy Pong. Ito ang full account ng mga kagaguhang nangyari magmula noong umahon kami nina Kuya Dante at ‘Te Raya sa ilog ng Lambakin at nagkaroon ng abilidad na masagap ang laman ng isip ng mga tao at makakita ng mga kagluyag—mga anyong taong nilalang na may napakasamang balak sa End of the World party na gaganapin sa Lambakin, ang bayan namin. Kung ikaw ang hinahanap namin para sumama sa napipintong paghaharap, bukas ang kwento namin para sa’yo. Let’s go.</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/kulang na silya.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Kulang na Silya at Iba pang Kuwentong Buhay: Essays on Life and Writing</h5>
+                <p class="card-text">"Sa buhay natin ay maraming pinto ang laging naghihintay na mabuksan. Isa sa pinakamahalagang pinto ay ang pinto ng pagkaunawa. Ang mga sanaysay na ito ay mga pagtatangka ko na maunawaan ang mga bagay-bagay. Para ito sa mga gusto magsulat, at maging doon sa mga hindi gustong magsulat. Karamihan sa mga anecdotes at aral dito ay madalas kong gamitin sa mga workshop ko. Magkakabit lagi ang writing at ang buhay. Binabago ng pagkukuwento ang ating mga buhay at binabago ng mga buhay natin ang ating pagkukuwento. Kaya ang mga sanaysay sa librong ito ay matatawag na mga kuwentong buhay. Volume one pa lang ito sa isang serye ng mga kwentong buhay na balak kong i-publish."
+                  - Ricky Lee.</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/lahat ng b.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Lahat ng B</h5>
+                <p class="card-text">Para sa lahat ng mga binasted, binitin, niloko, binalewala, pinaasa, nakalimot, nagparaya, hindi nadadala, di maka-move on, nadevastate at gusto munang magpahinga sa pag-ibig --- eto na ang pinakahihintay na sequel ng Para Kay B. Ang karugtong ng mga kuwento nina Irene, Sandra, Erica, Ester, Bessie, at Lucas, mula sa National Artist for Film and Broadcast Arts na si Ricky Lee.</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/para kay b.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Para Kay B </h5>
+                <p class="card-text">May quota ang pag-ibig.
+                  Sa bawat limang umiibg ay isa lang ang magiging maligaya.
+                  Kasama ka ba sa quota?</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/si.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Si</h5>
+                <p class="card-text">"Maaari bang malaman ang iyong pangalan?"
+
+                  "Victoria."
+                  
+                  "Kailan kita masisilayan, Victoria?"
+                  
+                  "Sa iyong pagsilang."</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/suklam.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ang Suklam sa Ating Naaagnas na Balat</h5>
+                <p class="card-text">Kalansay na ang mga labi ni Divine Amadeo nang matagpuan sa isang tambak sa C-6, malapit sa Silveria Fields. Ngunit hindi naniniwala si Dondi Amadeo, isang pharmacist, na sa kapatid niya ang nahukay na kalansay. Hinala naman ng investigative journalist na si Marisol Gatdula, may kinalaman si Dondi sa pagkamatay ni Divine. Sa tagisan ng katuwiran at pagsisiyasat, sasagasa sa landas nila si Boni Fly, isang ex-convict, na kapwa naghahanap ng mga kasagutan tungkol sa karumaldumal na sinapit ng kaniyang anak..</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center mt-5">
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/the vanished.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Vanished</h5>
+                <p class="card-text">English edition of Chuckberry Pascual's "Ang Nawawala"
+                  Translated by Ned Parfan
+                  
+                  A transwoman, still reeling from the disappearance of her parents, starts looking for missing things in her village and unwittingly unearths other mysteries.</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/three nights three days.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Three Nights Three Days</h5>
+                <p class="card-text">SWhat can happen in three nights in a small town with big ghosts?</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem;">
+              <img src="images/ubusan ng bida.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Ubusan ng Bida</h5>
+                <p class="card-text">Sa ikauunlad ng bayan, sindikato ang kailangan."
+
+                  Pinakilos ni Michael Corneleo ang mga elementong kriminal para mapairal ang katiwasayan, ngunit sa bawat hakbang ay may kontra-maniobra ang mga partidong sa gulo namamayagpag..</p>
+                <a href="#" class="btn btn-primary">add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <button id="signOutButton">Sign Out</button>
+    </div>
+
+    <script type="module">
+      //Update the below URL with the appropriate version if necessary.
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
+      import {
+        getAuth,
+        createUserWithEmailAndPassword,
+        signInWithEmailAndPassword,
+        onAuthStateChanged,
+        signOut,
+        //Update the below URL with the appropriate version if necessary.
+      } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-auth.js";
+
+      // INSERT YOUR FIREBASE CONFIG OBJECT HERE
+      const firebaseConfig = {
+  apiKey: "AIzaSyAzF-BN4tkxhVX1ggfKP5gqoeIVNlnbG64",
+  authDomain: "signup-fce2c.firebaseapp.com",
+  projectId: "signup-fce2c",
+  storageBucket: "signup-fce2c.appspot.com",
+  messagingSenderId: "111019107828",
+  appId: "1:111019107828:web:b8ab96521db8d6b8f485a1"
+};
+      const app = initializeApp(firebaseConfig);
+      const auth = getAuth(app);
+
+      const userEmail = document.querySelector("#userEmail");
+      const userPassword = document.querySelector("#userPassword");
+      const authForm = document.querySelector("#authForm");
+      const secretContent = document.querySelector("#secretContent");
+      const signUpButton = document.querySelector("#signUpButton");
+      const signInButton = document.querySelector("#signInButton");
+      const signOutButton = document.querySelector("#signOutButton");
+
+      secretContent.style.display = "none";
+
+      const userSignUp = async () => {
+        const signUpEmail = userEmail.value;
+        const signUpPassword = userPassword.value;
+        createUserWithEmailAndPassword(auth, signUpEmail, signUpPassword)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            console.log(user);
+            Swal.fire("Your Account is succesfully created!");
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode + errorMessage);
+          });
+      };
+
+      const userSignIn = async () => {
+        const signInEmail = userEmail.value;
+        const signInPassword = userPassword.value;
+        signInWithEmailAndPassword(auth, signInEmail, signInPassword)
+          .then((userCredential) => {
+            const user = userCredential.user;
+            Swal.fire("You have signed in successfully!");
+          })
+          .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode + errorMessage);
+          });
+      };
+
+      const checkAuthState = async () => {
+        onAuthStateChanged(auth, (user) => {
+          if (user) {
+            authForm.style.display = "none";
+            secretContent.style.display = "block";
+          } else {
+            authForm.style.display = "block";
+            secretContent.style.display = "none";
+          }
+        });
+      };
+
+      const userSignOut = async () => {
+        await signOut(auth);
+        Swal.fire("User Logout");
+      };
+
+      checkAuthState();
+
+      signUpButton.addEventListener("click", userSignUp);
+      signInButton.addEventListener("click", userSignIn);
+      signOutButton.addEventListener("click", userSignOut);
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
